@@ -1,0 +1,111 @@
+.app__specialMenu{
+    flex-direction: column ;
+    background-color: var(--color-white);
+    font-family: var(--font-base);
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content: space-between;
+}
+  
+
+.app__specialMenu-title img {
+    display: flex;
+}
+
+.app__specialMenu-menu{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.app__specialMenu-menu_wine,
+.app__specialMenu-menu_cocktails{
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__specialMenu_menuitems{
+    border: 2.66px solid var(--color-blue);
+    padding: 0 20px;
+
+}
+.app__specialMenu-menu_cocktails .app__specialMenu_menuitems:nth-child(2) {
+border-left: none;
+}
+
+.custom__buttonYellow{
+    margin-bottom: 1.5rem;
+}
+
+.app__specialMenu-title .headtext__cormorant{
+    white-space: nowrap;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-left: 1.5rem
+}
+
+@media screen and (max-width:1440px){
+         .app__specialMenu-title img {
+            width: 100%;
+        }
+}
+
+@media screen and (max-width:1150px){
+    .app__specialMenu-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+        .app__specialMenu-title img {
+            width: 380px;
+            height: 100%;
+            margin: 0 auto; /* Updated */
+            display: block; /* Added */
+        }
+        .app__specialMenu_menuitems{
+            margin-bottom: 2rem;
+        }
+        .app__specialMenu-menu_cocktails .app__specialMenu_menuitems:nth-child(2) {
+            border-left: solid var(--color-blue)
+        }
+        .app__specialMenu-title{ 
+            flex-direction: column;
+        }
+        .app__specialMenu-title .headtext__cormorant{
+            margin-top: 1.5rem;
+        }
+
+        .app__specialMenu-title {
+            align-items: center;
+        }       
+}
+
+@media screen and (max-width:850px){
+    .app__specialMenu-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    .app__specialMenu-title img {
+       display: none;
+      }
+      .app__specialMenu{
+        margin: 0;
+    }
+}
+@media screen and (max-width:350px){
+    .app__specialMenu-title .headtext__cormorant{
+        white-space:break-spaces;
+        align-items: center;
+    }
+}

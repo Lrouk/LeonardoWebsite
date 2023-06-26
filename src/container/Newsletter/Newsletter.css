@@ -1,0 +1,169 @@
+.app__newsletter{   
+    background: var(--color-white);
+    font-family: var(--font-base);
+    position: relative;
+}
+
+.app__newsletter-heading{
+    text-align: left;
+}
+
+.app__newsletter-input{
+    flex-direction: row;
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+}
+
+.app__error {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    word-break: break-all;
+    padding-left: 24rem;
+    display:inline-block;
+    word-break: break-all;
+    max-width: 100%;
+  }
+
+.app__newsletter-input input{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 2.66px solid var(--color-red);
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+    max-width: 1375px;
+    appearance: none;
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+    margin-right: 5rem;
+    outline: none;
+    align-items: left;
+    padding-left: 0.5rem;
+
+}
+
+.app__newsletter-input::placeholder{
+  color: var(--color-black);
+  
+}
+
+.app__newsletter-input .custom__a {
+    top: -80%;
+    left: 90%;
+  }
+
+.app__newsletter-input button{
+    width: max-content;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .popup::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  body.popup-open {
+    overflow: hidden;
+  }
+
+@media screen and (max-width:1440px){
+    .app__error {
+        padding-left: 0rem;
+      }
+    .app__newsletter-input .custom__a {
+        top: -45%;
+        left: 88%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .app__error {
+        padding-left: 0rem; 
+      }
+
+    .app__newsletter-input .custom__a {
+        top: 0%;
+        left: 80%;
+    }
+    .app__newsletter-heading{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 990px){
+    .app__newsletter-input{
+        flex-direction: column;
+        width: 100%;
+    }
+    .app__newsletter-input input{
+        margin: 0 0 2rem 0;
+    }
+    .app__error {
+        padding-left: 0rem;
+        text-align: center;
+        max-width: 100%;
+        margin-top: 0.4rem;
+        padding-left: 0; 
+    }
+    .app__newsletter-input .custom__a {
+        top: -45%;
+        left: 50%;
+    }
+
+    .app__newsletter-input .custom__button {
+      margin: 0 auto;
+    }
+
+    .app__newsletter-heading{
+      margin-bottom: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .app__newsletter{
+        padding: 2rem 0;
+        border: none;
+    }
+    .app__error {
+        padding-left: 0rem; 
+      }
+}
+
+  @media screen and (max-width: 450px){
+        .app__newsletter-input .custom__a {
+            top: -70%;
+            left: 50%;
+            padding: 0 10px;
+        }
+}
