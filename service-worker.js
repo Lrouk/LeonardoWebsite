@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LeonardoWebsite/precache-manifest.b1b8cf192851cae73b1747e2f2f7355e.js"
+  "/LeonardoWebsite/precache-manifest.2905087f3a8421a307b1f8ce95be8657.js"
 );
 
 workbox.clientsClaim();

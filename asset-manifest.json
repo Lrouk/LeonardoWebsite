@@ -1,7 +1,7 @@
 {
   "main.css": "/LeonardoWebsite/static/css/main.b90ed315.chunk.css",
-  "main.js": "/LeonardoWebsite/static/js/main.af2a6c45.chunk.js",
-  "main.js.map": "/LeonardoWebsite/static/js/main.af2a6c45.chunk.js.map",
+  "main.js": "/LeonardoWebsite/static/js/main.c23f0a5c.chunk.js",
+  "main.js.map": "/LeonardoWebsite/static/js/main.c23f0a5c.chunk.js.map",
   "static/css/1.4099ed72.chunk.css": "/LeonardoWebsite/static/css/1.4099ed72.chunk.css",
   "static/js/1.b6626806.chunk.js": "/LeonardoWebsite/static/js/1.b6626806.chunk.js",
   "static/js/1.b6626806.chunk.js.map": "/LeonardoWebsite/static/js/1.b6626806.chunk.js.map",
@@ -19,6 +19,6 @@
   "static/css/1.4099ed72.chunk.css.map": "/LeonardoWebsite/static/css/1.4099ed72.chunk.css.map",
   "static/css/main.b90ed315.chunk.css.map": "/LeonardoWebsite/static/css/main.b90ed315.chunk.css.map",
   "index.html": "/LeonardoWebsite/index.html",
-  "precache-manifest.b1b8cf192851cae73b1747e2f2f7355e.js": "/LeonardoWebsite/precache-manifest.b1b8cf192851cae73b1747e2f2f7355e.js",
+  "precache-manifest.2905087f3a8421a307b1f8ce95be8657.js": "/LeonardoWebsite/precache-manifest.2905087f3a8421a307b1f8ce95be8657.js",
   "service-worker.js": "/LeonardoWebsite/service-worker.js"
 }
