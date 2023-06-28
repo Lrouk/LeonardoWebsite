@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c23f0a5cd170a6dcdf5a",
-    "url": "/LeonardoWebsite/static/css/main.b90ed315.chunk.css"
+    "revision": "b8a0d8af38ef10d4b239",
+    "url": "/LeonardoWebsite/static/css/main.2bfcb9ba.chunk.css"
   },
   {
-    "revision": "c23f0a5cd170a6dcdf5a",
-    "url": "/LeonardoWebsite/static/js/main.c23f0a5c.chunk.js"
+    "revision": "b8a0d8af38ef10d4b239",
+    "url": "/LeonardoWebsite/static/js/main.b8a0d8af.chunk.js"
   },
   {
     "revision": "b66268068b0e064afcc3",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/LeonardoWebsite/static/media/menuDrinks.b99fb64b.jpg"
   },
   {
-    "revision": "e9d5589c77360f2259692dc867782d4b",
+    "revision": "fa2dcc0cd594f2df657c7cc4ecf1ef9b",
     "url": "/LeonardoWebsite/index.html"
   }
 ];
