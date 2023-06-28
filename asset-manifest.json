@@ -1,7 +1,7 @@
 {
-  "main.css": "/LeonardoWebsite/static/css/main.d3fc8c12.chunk.css",
-  "main.js": "/LeonardoWebsite/static/js/main.fb7c320a.chunk.js",
-  "main.js.map": "/LeonardoWebsite/static/js/main.fb7c320a.chunk.js.map",
+  "main.css": "/LeonardoWebsite/static/css/main.a5eb16fc.chunk.css",
+  "main.js": "/LeonardoWebsite/static/js/main.65d3b711.chunk.js",
+  "main.js.map": "/LeonardoWebsite/static/js/main.65d3b711.chunk.js.map",
   "static/css/1.5fbaac79.chunk.css": "/LeonardoWebsite/static/css/1.5fbaac79.chunk.css",
   "static/js/1.c4bbf65f.chunk.js": "/LeonardoWebsite/static/js/1.c4bbf65f.chunk.js",
   "static/js/1.c4bbf65f.chunk.js.map": "/LeonardoWebsite/static/js/1.c4bbf65f.chunk.js.map",
@@ -16,9 +16,9 @@
   "static/media/Leonardo_footer.png": "/LeonardoWebsite/static/media/Leonardo_footer.15cc730d.png",
   "static/media/awards.jpg": "/LeonardoWebsite/static/media/awards.ec42111c.jpg",
   "static/media/menuDrinks.jpg": "/LeonardoWebsite/static/media/menuDrinks.b99fb64b.jpg",
-  "static/css/main.d3fc8c12.chunk.css.map": "/LeonardoWebsite/static/css/main.d3fc8c12.chunk.css.map",
+  "static/css/main.a5eb16fc.chunk.css.map": "/LeonardoWebsite/static/css/main.a5eb16fc.chunk.css.map",
   "static/css/1.5fbaac79.chunk.css.map": "/LeonardoWebsite/static/css/1.5fbaac79.chunk.css.map",
   "index.html": "/LeonardoWebsite/index.html",
-  "precache-manifest.8e7b9d58b84aa45799e2a3b6f68b90aa.js": "/LeonardoWebsite/precache-manifest.8e7b9d58b84aa45799e2a3b6f68b90aa.js",
+  "precache-manifest.1a90038fd5a72848360c4483f6a0c18c.js": "/LeonardoWebsite/precache-manifest.1a90038fd5a72848360c4483f6a0c18c.js",
   "service-worker.js": "/LeonardoWebsite/service-worker.js"
 }
